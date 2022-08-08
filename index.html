@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./media/favicon.ico">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Cotizador Cripto</title>
+</head>
+<body>
+    <header>
+        <a class="logo" href="index.html"><img src="./media/goat-logo.png" alt="logo" width="150px"></a>
+    </header>
+    <main>
+        <section class="main-section">
+            <h1>Cotizador de Criptomonedas</h1>
+            <div class="container">
+                <div class="image-side"></div>
+                <div class="form-side">
+                    <form action="" id="form-search">
+                        <select id="moneda" name="moneda">
+                            <option value="">DIVISAS</option>
+                            <option value="USD">Dolar Estadounidense</option>
+                            <option value="ARS">Peso Argentino</option>
+                            <option value="GBP">Libra Esterlina</option>
+                            <option value="EUR">Euro</option>
+                            <option value="JPY">Yen</option>
+                            <option value="CHF">Franco-suizo</option>
+                            <option value="BRL">Real</option>
+                            <option value="CNY">Yuan chino</option>
+                            <option value="CAD">Dólar Canadiense</option>
+                            <option value="RUB">Rublo</option>
+                        </select>
+                        <select id="criptomonedas" name="criptomoneda">
+                            <option value="" >CRIPTOS</option>
+                        </select>
+                        <input id="swalert" class="" type="submit" value="Cotizar" />
+                        <div class="container-answer"></div>
+                    </form>
+                </div>
+            </div>
+        </section> 
+    </main>
+    <footer>
+        <h3><strong>GOAT COTIZADOR EN LÍNEA</strong> - todos los derechos reservados</h3>
+    </footer>
+    <script src="app.js" defer></script>
+    <script src="cond.js"></script>
+</body>
+</html>
