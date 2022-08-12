@@ -5,13 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./media/favicon.ico">
+    <script src="https://kit.fontawesome.com/151365ef29.js" crossorigin="anonymous"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="style.css">
     <title>Cotizador Cripto</title>
 </head>
 <body>
     <header>
-        <a class="logo" href="index.html"><img src="./media/goat-logo.png" alt="logo" width="150px"></a>
+        <div>
+            <a class="logo" href="index.html"><img src="./media/goat-logo.png" alt="logo" width="150px"></a>
+            <button class="switch" id="switch"> 
+                <span><i class="fa-solid fa-sun"></i></span> 
+                <span><i class="fa-solid fa-moon"></i></span>
+            </button>
+        </div>
     </header>
     <main>
         <section class="main-section">
@@ -48,5 +55,6 @@
     </footer>
     <script src="app.js" defer></script>
     <script src="cond.js"></script>
+    <script src="switch.js"></script>
 </body>
 </html>
