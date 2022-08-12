@@ -1,7 +1,7 @@
 const swa = () => {
     Swal.fire({
         title: '¡No te olvides!',
-        text: 'Seleccioná los valores faltantes para poder cotizar',
+        text: 'Seleccioná una Divisa y una Cripto para poder cotizar',
         icon: 'warning',
         timer: 8000,
         timerProgressBar: true,
